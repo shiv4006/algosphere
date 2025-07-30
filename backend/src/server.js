@@ -6,7 +6,7 @@ import userRoutes from "./routes/user.routes.js";
 import connectDB from "./config/db.js"
 import cookieParser from "cookie-parser"
 
-dotenv.config({ path: '../.env' });
+dotenv.config();
 
 const app = express();
 connectDB();
