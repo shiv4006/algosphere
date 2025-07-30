@@ -1,0 +1,15 @@
+{
+  "watch": ["src/", "server.js", ".env"],
+  "ext": "js,mjs,json,env",
+  "ignore": [
+    "node_modules/",
+    "*.log",
+    "logs/",
+    ".git/",
+    "test/",
+    "*.test.js",
+    "coverage/"
+  ],
+  "verbose": true,
+  "delay": "1000"
+}
